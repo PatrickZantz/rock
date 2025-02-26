@@ -9,9 +9,9 @@ interface Props {
 const ChoiceButton: React.FC<Props> = ({ choice, onClick }) => {
   // Mappe die Icons auf die entsprechenden Dateien
   const iconMap: Record<Choice, string> = {
-    rock: "../src/assets/rock.png",
-    paper: "../src/assets/paper.png",
-    scissors: "../src/assets/scissors.png",
+    rock: "./rock.png",
+    paper: "./paper.png",
+    scissors: "./scissors.png",
   };
 
   return (
